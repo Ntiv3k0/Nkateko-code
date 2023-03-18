@@ -1,7 +1,6 @@
 #include <stdio.h>
-
 /**
- * main - main function
+ * main - add description for main function
  *
  * Return: always 0
  */
