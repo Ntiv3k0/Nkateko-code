@@ -1,15 +1,16 @@
 #include <stdio.h>
+
 /**
  * main - add description for main function
  *
- * Return: always 0
+ * Return: description always 0
  */
 
 int main(void)
 {
 	int i;
 
-	for (i = 0 ; i < 10 ; i++)
+	for (i = 0 ; i < 11 ; i++)
 	{
 		if (i == 9)
 			putchar(i + '0');
