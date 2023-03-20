@@ -3,8 +3,8 @@
 /*
  * main - a program that prints the size of variouse computer types
  *
- * Return: always 0 (successful)
- * */
+ * Return: always 0 when called (successful)
+ */
 
 int main(void)
 {
