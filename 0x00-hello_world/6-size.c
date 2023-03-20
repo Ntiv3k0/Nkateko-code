@@ -2,6 +2,7 @@
 
 /**
  * main - print the size of various typs based on computer
+ *
  * Return: Always 0
  */
 
