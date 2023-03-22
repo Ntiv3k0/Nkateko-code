@@ -5,7 +5,7 @@
  *
  * @i: function parameter
  *
- * Retunr: return k
+ * Return: return k
  */
 
 int print_last_digit(int i)
