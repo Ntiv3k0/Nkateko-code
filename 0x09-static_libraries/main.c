@@ -1,9 +1,13 @@
 #include "main.h"
+#include "libmy.a"
+#include <stdio.h>
 /**
- * char *_strcpy - a function that copies the string pointed to by src
- * @dest: copy to
- * @src: copy from
- * Return: string
+ * main - Entry point
+ *
+ * Description: 'the program's description'
+ * @parameter: describe the parameter
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
