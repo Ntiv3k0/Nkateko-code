@@ -32,20 +32,15 @@
 
 
 	/**
-	 * main - Print the name of the program
+	 * main - Print the name of the program on the console
 	 * @argc: Count arguments
 	 * @argv: Arguments
-	 *
 	 * Return: Always 0 (Success)
 	 */
 
 
 	int main(int argc, char *argv[])
-
-
 	{
-
-
 		/*Declaring variables*/
 		int count;
 		int str_to_int;
