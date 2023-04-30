@@ -11,10 +11,18 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-	struct Node* new_node = (struct Node)malloc(sizeof(struct Node));
+	list_t *new;
+	unsigned int len = 0;
 
-	new_node->next = new_data;
-	new_node->next = (*head_ref);
-	(*head_ref) = new_node;
+	while (str[len])
+	len++;
+
+	new = malloc(sizeof(list_t));
+	if (!new)
+	return (NULL);
+	new->str = strup(str);
+	new->len = len;
+	new->next = (*head);
+	(*head) = new;
 	return (*head);
 }
