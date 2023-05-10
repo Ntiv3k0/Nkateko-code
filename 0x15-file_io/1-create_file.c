@@ -29,7 +29,7 @@ int create_file(const char *filename, char *text_content)
 {
 	size_t len = strlen(text_content);
 
-	if (write(fd, text_content, len) == len)
+	if ((ssize_t)write(fd, text_content, len) != (ssize_t)len)
 	{
 	close(fd);
 	return (-1);
